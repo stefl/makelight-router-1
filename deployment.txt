@@ -1,0 +1,3 @@
+To deploy:
+
+now alias makelight.com -r rules.json

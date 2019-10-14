@@ -1,0 +1,21 @@
+{
+  "rules": [    
+    { "pathname": "/", "dest": "next.makelight.com" },
+    { "pathname": "/blog", "dest": "next.makelight.com" },
+    { "pathname": "/free", "dest": "next.makelight.com" },
+    { "pathname": "/membership", "dest": "next.makelight.com" },
+    { "pathname": "/podcasts", "dest": "next.makelight.com" },
+    { "pathname": "/podcasts/**", "dest": "next.makelight.com" },
+    { "pathname": "/about", "dest": "next.makelight.com" },
+    { "pathname": "/online-courses", "dest": "next.makelight.com" },
+    { "pathname": "/online**", "dest": "next.makelight.com" },
+    { "pathname": "/lessons/next", "dest": "makelight.herokuapp.com" },
+    { "pathname": "/lessons/**", "dest": "next.makelight.com" },
+    { "pathname": "/pages/**", "dest": "next.makelight.com" },
+    { "pathname": "/articles/categories/members", "dest": "makelight.herokuapp.com"},
+    { "pathname": "/articles/**", "dest": "next.makelight.com" },
+    { "pathname": "/static/**", "dest": "next.makelight.com" },
+    { "pathname": "/_next/**", "dest": "next.makelight.com" },
+    { "dest": "makelight.herokuapp.com" }
+  ]
+}
